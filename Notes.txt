@@ -1,0 +1,10 @@
+To run a PHP file press Ctrl+Alt+N
+
+In settings, I went to:
+    - Run in terminal
+    - Scrolled down to Code-runner: Run in terminal
+    - Checked the box next to above line
+This allowed me to run the inputProgram.php without an error.
+It will actually run in the terminal now. However, I'm not sure
+if this will mess up other code I work on in the future. So I'm 
+reminding myself what I did incase I need to undo it later.
