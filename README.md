@@ -27,10 +27,13 @@
 * [Apache downloads](https://www.apachelounge.com/download/#google_vignette)
 * [PHP Visual Studio Code](https://code.visualstudio.com/docs/languages/php)
 * [Zend](https://www.zend.com/blog/php-development-using-php-extensions#:~:text=php%20file%20extension%20refers%20to,a%20Word%20file%20with%20a%20.)
+* [Stack Overflow](https://stackoverflow.com/questions/676677/how-to-add-elements-to-an-empty-array-in-php)
+* [Stack Overflow](https://stackoverflow.com/questions/9816889/how-can-i-echo-or-print-an-array-in-php)
+* [Stack Overflow](https://stackoverflow.com/questions/369602/deleting-an-element-from-an-array-in-php)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Figure out why function is throwing errors.
+* Implement loop.
+* Learn how to run PHP in web browser.
+* Make something more complicated that utilizes the full potential of PHP.
