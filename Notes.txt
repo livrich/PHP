@@ -8,3 +8,10 @@ This allowed me to run the inputProgram.php without an error.
 It will actually run in the terminal now. However, I'm not sure
 if this will mess up other code I work on in the future. So I'm 
 reminding myself what I did incase I need to undo it later.
+
+// echo vs print
+The differences are small: echo has no return value while print 
+has a return value of 1 so it can be used in expressions. echo 
+can take multiple parameters (although such usage is rare) while 
+print can take one argument. echo is marginally faster than print.
+
