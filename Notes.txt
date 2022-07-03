@@ -1,5 +1,10 @@
 To run a PHP file press Ctrl+Alt+N
 
+Must fully exit program before running it again.
+Even if I close the terminal. Otherwise, changes
+will not be recognized. (In this case, I need to
+press option 4 before testing changes.)
+
 In settings, I went to:
     - Run in terminal
     - Scrolled down to Code-runner: Run in terminal

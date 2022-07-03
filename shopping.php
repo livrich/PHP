@@ -1,11 +1,3 @@
-<!-- Requirements:
-- Menu with options
-- Add item (name and quantity)
-- Remove item
-- View items
- -->
-
-
 <!DOCTYPE html>
 <html>
 <body>
@@ -13,6 +5,8 @@
 <h1>Shopping List</h1>
 
 <?php
+// I can't figure out why it is so angry
+// with this function.
 // function startMenu() {
 //     echo "";
 //     echo "1. Add Item\n";
@@ -21,8 +15,8 @@
 //     echo "4. Done/Exit\n";
 // }
 
-$item_name = array();
-$name_length = count($item_name);
+$array = array();
+$name_length = count($array);
 
 $choice = 0;
 
@@ -37,34 +31,40 @@ while ($choice != 4) {
     if ($choice == 1) {
         // Add item
         $name = readline("Name of item: ");
-        echo $name;
+        $array[] = $name;
 
-        $item_name = array_push($item_name, $name);
-
-        echo $item_name;
-        
     } else if ($choice == 2) {
         // Remove item
+        $what = readline("What item number do you want to remove? ");
+        unset($array[$what]);
+
     } else if ($choice == 3) {
         // View items
-        for ($x = 0; $x < $name_length; $x++) {
-            echo $item_name[$x];
-            echo "<br>";
-        }
+        // Right now, the loop makes it so the array won't display
+        // for ($x = 0; $x < $name_length; $x++) {
+        echo "\n";
+        echo "Shopping List\n";
+        echo "<pre>";
+        print_r($array);
+        echo "</pre>\n";
+        echo "\n";
+            // echo "($x + 1) $item_name[$x]";
+            // echo "<br>";
+        // }
+
     } else if ($choice == 4) {
         // Exit program
-        exit("Goodbye!");
+        echo "Goodbye!";
+        exit();
+
     } else {
         // Error, invalid input
-        echo "<br>";
-        echo "Error, invalid input. Please try again.";
-        echo "<br>";
+        echo "";
+        echo "\nError, invalid input. Please try again.\n";
+        echo "\n";
     }
-    
 }
-
 ?>
-
 
 </body>
 </html>

@@ -13,6 +13,7 @@ $price = 0.82;
 echo "The price of $food is $price.";
 
 if ($food == "corn") {
+    echo "It works";
     exit("Goodbye!");
 } else {
     echo "That didn't work";
