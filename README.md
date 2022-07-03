@@ -26,7 +26,7 @@ shopping program does not implement loops or functions, which is something I'd l
 Ultimately though, I'm happy with what I was able to accomplish in such a short amount of time. I also ended with a working program; though, it could use
 some refinement. The below video is me quickly running through my working shopping program.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/U74hVqAoOIo)
 
 # Development Environment
 
