@@ -12,13 +12,12 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+* Language: PHP
+* IDE: Visual Studio Code
+* Control Manager: GitHub
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [w3schools](https://www.w3schools.com/php/php_intro.asp)
 * [Tech Decode Tutorials](https://techdecodetutorials.com/how-to-run-php-in-visual-studio-code-on-windows-11/)
 * [PHP downloads](https://www.php.net/downloads.php)
